@@ -1,5 +1,6 @@
 class Solution:
     def numDecodings(self, s: str) -> int:
+        #dynamic solution
         dp = { len(s) : 1}
         
         for i in range(len(s) - 1, - 1, - 1):
@@ -15,7 +16,7 @@ class Solution:
     
     
     
-    
+# recrusive solution 
     #dp = { len(s) : 1}
         
      #   def dfs(i):
